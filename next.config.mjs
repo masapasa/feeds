@@ -21,11 +21,14 @@ const nextConfig = {
       "lh3.googleusercontent.com",
       "avatars.githubusercontent.com",
       // Add your own bucket urls here:
-      "t3-images-bucket.s3.sa-east-1.amazonaws.com",
-      "t3-images-bucket.s3.amazonaws.com",
-      "t3-avatars-bucket.s3.sa-east-1.amazonaws.com",
-      "t3-avatars-bucket.s3.amazonaws.com",
-      "t3-tag-images-bucket.s3.sa-east-1.amazonaws.com",
+      "t3-attachment-bucket.s3.amazonaws.com",
+      "t3-attachment-bucket.s3.sa-east-1.amazonaws.com",
+      "t3-tag-image-bucket.s3-sa-east-1.amazonaws.com",
+      "t3-tag-image-bucket.s3.amazonaws.com",
+      "t3-post-body-bucket.s3-sa-east-1.amazonaws.com",
+      "t3-post-body-bucket.s3.amazonaws.com",
+      "t3-avatar-bucket.s3-sa-east-1.amazonaws.com",
+      "t3-avatar-bucket.s3.amazonaws.com"
     ],
   },
 };

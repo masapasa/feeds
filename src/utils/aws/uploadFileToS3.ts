@@ -17,5 +17,6 @@ export async function uploadFileToS3(url: string, fields: Fields, file: File) {
   await fetch(url, {
     method: "POST",
     body: formData,
+    mode: "no-cors",
   });
 }
